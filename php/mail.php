@@ -26,7 +26,7 @@ if($_POST) {
     if(isset($_POST['email_title'])) {
         $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
         $email_body .= "<div>
-                           <label><b>Reason For Contacting Us:</b></label>&nbsp;<span>".$email_title."</span>
+                           <label><b>Country:</b></label>&nbsp;<span>".$email_title."</span>
                         </div>";
     }
       
